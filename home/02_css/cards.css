@@ -1,0 +1,11 @@
+a {
+    width: 150px;
+    height: 200px;
+    background-image: url(cards.7e0a18f0.png);
+    background-repeat: no-repeat;
+    display: inline-block;}
+a.first {background-position: -430px -1386px;}
+a.second {background-position: 5px -1785px;}
+a.third {background-position: -283px -1386px;}
+a.fourth {background-position: -139px -2180px;}
+a.fifth {background-position: 5px -2380px;}
