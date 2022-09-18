@@ -6,22 +6,23 @@
     <style>
         .navigation {
             width: 15em;
-            height: 300px;
+            height: 350px;
             background-color: rgb(170, 162, 163);
             float: left;}
         .article1 {
             background-color:rgb(155, 150, 150);
-            height: 150px;
             margin-bottom: .2em;}
         .footer {
             height: auto;
-            background-color: rgb(155, 150, 150);
-            clear: both;}
+            background-color: rgb(155, 150, 150);}
         .img {float: right;}
+        .clear {clear: both;}
+        .back {background-color: aqua;}
     </style>
 </head>
 <body>
-    <div class="navigation"> <strong>Блок навигации</strong> <br>
+    <div class="back">
+    <div class="navigation"> <h3>Блок навигации</h3> <br>
        <ul>
         <li>Ширина 15ем</li>
         <li>Должен присутствовать цвет фона</li>
@@ -35,23 +36,26 @@
         </li>
        </ul>
     </div>
-    <div class="article1"> <strong>Статья 1</strong> <br>
+    <div class="article1"> <h3>Статья 1</h3> <br>
         Размер блока: <br>
         Занимает всю доступную ширину <br>
         Должен присутствовать цвет фона <br>
         Во всех "статьях" сделайте отступ снизу от соседей равным .2ем, при помощи margin <br>
         bottom
     </div>
-    <div class="article1"> <strong>Статья 2</strong> <br>
+    <div class="article1"> <h3>Статья 2</h3> <br>
         Размер блока: <br>
         Занимает всю доступную ширину <br>
         Должен присутствовать цвет фона <br>
         Во всех "статьях" сделайте отступ снизу от соседей равным .2ем, при помощи margin <br>
         bottom. Картинка вставлена при помощи тега, плавание организовано по правому краю внутри <br>
         данной статьи для этой картинки 
-        <img src="letter.png" alt="letter" width="50px" height="50px" class="img"></div>
+        <img src="letter.png" alt="letter" width="50px" height="50px" class="img">
+    <div class="clear" ></div>
+    </div>
     <div class="footer">
         Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.
+    </div>
     </div>
 </body>
 </html>
