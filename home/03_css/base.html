@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <style>
+        @media all and (max-width: 1200px)
+        {nav {margin: 100px 0;
+			 background-color: gray;}
+		nav ul {padding: 0;
+			    margin: 0;
+			    list-style: none;
+			    position: relative;}
+		nav ul li {margin: 0px -7px 0 0;
+			    display: inline-block;
+			    background-color: gray;}
+		nav a {display: block;
+                border: solid 1px aqua;
+			    padding: 0 10px;
+                color: black;
+			    font-size: 20px;
+			    line-height: 60px;
+			    text-decoration: none;}
+        nav ul ul {display: none;
+			    position: absolute;
+			    top: 100%;}
+        nav ul li:hover > ul {display:inherit;}
+        nav ul ul li {min-width:140px;
+			    float: none;
+			    display: list-item;
+			    position: relative;}}
+
+        @media all and (max-width: 800px)
+        {nav {margin: 100px 0;
+              background-color: gray;}
+		nav ul {padding:0;
+			    margin:0;
+                list-style: none;
+			    position: relative;}
+        nav ul li {margin: 0px -7px 0 0;
+			    display: inline;
+			    background-color: gray;}
+		nav a {display: block;
+                border: solid 1px aqua;
+			    padding: 0 10px;
+			    color: black;
+			    font-size: 20px;
+			    line-height: 60px;
+			    text-decoration: none;}
+        nav ul ul {display: none;
+			    position: absolute;
+			    top: 100%;}
+        nav ul li:hover > ul {display:inherit;}
+        nav ul ul li {min-width:150px;
+                position: relative;
+                display: list-item;
+                margin-left: 190px;
+                margin-top: -150px;}}
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Понедельник</a></li>
+            <li><a href="#">Вторник</a></li>
+            <li><a href="#">Среда</a>
+                <ul>
+                    <li><a href="#">Завтрак</a></li>
+                    <li><a href="#">Обед</a></li>
+                    <li><a href="#">Ужин</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Четверг</a></li>
+            <li><a href="#">Пятница</a></li>
+            <li><a href="#">Суббота</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
